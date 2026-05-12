@@ -1,6 +1,6 @@
 # 🕹️ Project: Retro Rewind – The 80s Arcade Experience
 
-Welcome to your next AP Computer Science Principles project! Step into a time machine and travel back to the 1980s—the "Golden Age" of video games. 
+Welcome to your next AP Computer Science Principles project! Step into a time machine and travel back to the 1980s—the "Golden Age" of video games. yes
 
 The 1980s gave us the rise of arcade cabinets at the mall, home consoles like the NES and Atari 2600, and legendary franchises like *Pac-Man*, *Donkey Kong*, *Super Mario Bros.*, *The Legend of Zelda*, and *Tetris*. Your mission is to design and develop a browser-based, 80s-inspired arcade game using JavaScript.
 
