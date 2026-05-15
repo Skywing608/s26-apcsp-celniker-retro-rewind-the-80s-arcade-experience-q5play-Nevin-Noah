@@ -1,25 +1,11 @@
-await Canvas();
-world.gravity.y = 10;
+await Canvas(500,500);
 
-let ball = new Sprite();
-ball.diameter = 50;
-ball.img = '🤪';
+let tank = new Sprite();
+tank.img = 'tank.piksel';
 
-let groundA = new Sprite();
-groundA.x = -120;
-groundA.width = 220;
-groundA.rotation = 30;
-groundA.physics = STATIC;
-
-let groundB = new Sprite();
-groundB.x = 120;
-groundB.width = 220;
-groundB.rotation = -30;
-groundB.physics = STATIC;
+let crossheir = new Sprite();
+crossheir.img = 'Crossheir.piksel';
 
 q5.update = function () {
-	background('skyblue');
-	text('click to jump!', 0, -50);
-
-	if (mouse.presses()) ball.vel.y = -5;
+	crossheir.moveTowards(mouse);
 };
